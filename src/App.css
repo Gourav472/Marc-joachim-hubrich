@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.btn_webkit::after {
+   -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+   -webkit-mask-composite: xor;
+   mask-composite: exclude;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-dots li button::before {
+   color: white !important;
+   opacity: 30%;
+   font-size: 10px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom-dots li.slick-active button::before {
+   opacity: 1 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slick-next:before {
+   display: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.slick-prev:before {
+   display: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slick-prev {
+   left: 12px !important;
+   bottom: 23px !important;
+}
+
+.slick-next {
+   right: unset;
+   left: 55px !important;
+   bottom: 23px !important;
+}
+
+.slick-prev,
+.slick-next {
+   top: unset !important;
+   display: flex !important;
+}
+.bluebox .slick-track {
+   display: flex !important ;
+   gap: 20px !important;
+}
+@media (min-width:992px) {
+   .slick-prev {
+      left: -30px !important;
+      bottom: 23px !important;
+   }
+   
+   .slick-next {
+      right: unset;
+      left: 10px !important;
+      bottom: 23px !important;
+   }
+}
+@media (min-width:1140px) {
+   .slick-prev {
+      left: 0px !important;
+      bottom: 23px !important;
+   }
+   
+   .slick-next {
+      right: unset;
+      left: 45px !important;
+      bottom: 23px !important;
+   }
+}
+@media (min-width:1200px) {
+   .slick-prev {
+      left: 0px !important;
+      bottom: 23px !important;
+   }
+   
+   .slick-next {
+      right: unset;
+      left: 48px !important;
+      bottom: 23px !important;
+   }
+   
 }
