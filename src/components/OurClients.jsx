@@ -42,7 +42,7 @@ const OurClients = () => {
             <section className=' pt-[10px] pb-[48px] md:py-[80px] lg:pt-[202px] lg:pb-[226px] relative'>
                 <div className=' container relative z-20'>
                     <div className=' flex flex-col items-center '>
-                        <h2 data-aos="zoom-in" className=' uppercase text-center ff-hel text-black font-[400] text-[32px] sm:text-[45px] md:text-[52px] leading-[45px] md:leading-[66px]'>What our <span className=' text-orange'>clients</span> say</h2>
+                        <h2 data-aos="zoom-in" className=' uppercase text-center ff-hel text-black font-[400] text-[32px] sm:text-[45px] md:text-[52px] ff-hel leading-[45px] md:leading-[66px]'>What our <span className=' text-orange'>clients</span> say</h2>
                         <div data-aos="zoom-in" className='mx-auto w-full clint'>
                             <Slider {...settings3}>
                                 <div className="max-w-[820px] mx-auto flex flex-col items-center">
