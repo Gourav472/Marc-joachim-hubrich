@@ -49,7 +49,7 @@ const OurClients = () => {
                                     <div className=' relative mt-[84px] w-full p-[50px_20px_20px_20px] md:p-[58px_50px_32px_49px] flex flex-col shadow-3xl'>
                                         <p className=' opacity-70 max-w-[721px] text-center font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Nec pellentesque aliquet diam eget sed mi ornare vulputate duis. Posuere id habitasse quis ac ac. Pellentesque eget sed ut tincidunt cras. Ipsum nec placerat vitae orci. Accumsan amet commodo montes, aenean velit gravida tristique montes. Porttitor velit cras venenatis, amet curabitur ultricies ac dictum.</p>
                                         <p className=' font-Poppins font-[500] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] text-center pt-4 text-black '>Marrie James-CEO</p>
-                                        <p className=' pt-[2px] text-center font-Poppins text-black text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Limana Enterprises, CA</p>
+                                        <p className=' pt-[2px] text-center opacity-70 font-Poppins text-black text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Limana Enterprises, CA</p>
                                         <img className=' pointer-events-none absolute top-[-50px] left-[45%] ' src={womenelipse} alt="women" />
                                     </div>
 
@@ -76,7 +76,7 @@ const OurClients = () => {
                                     <div className=' relative mt-[84px] w-full p-[50px_20px_20px_20px] md:p-[58px_50px_32px_49px] flex flex-col shadow-3xl'>
                                         <p className=' opacity-70 max-w-[721px] text-center font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Nec pellentesque aliquet diam eget sed mi ornare vulputate duis. Posuere id habitasse quis ac ac. Pellentesque eget sed ut tincidunt cras. Ipsum nec placerat vitae orci. Accumsan amet commodo montes, aenean velit gravida tristique montes. Porttitor velit cras venenatis, amet curabitur ultricies ac dictum.</p>
                                         <p className=' font-Poppins font-[500] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] text-center pt-4 text-black '>Marrie James-CEO</p>
-                                        <p className=' pt-[2px] font-Poppins text-center text-black text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Limana Enterprises, CA</p>
+                                        <p className=' pt-[2px] opacity-70 text-center font-Poppins text-black text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Limana Enterprises, CA</p>
                                         <img className=' pointer-events-none absolute top-[-50px] left-[45%] ' src={womenelipse} alt="women" />
                                     </div>
 
@@ -103,7 +103,7 @@ const OurClients = () => {
                                     <div className=' relative mt-[84px] w-full p-[50px_20px_20px_20px] md:p-[58px_50px_32px_49px] flex flex-col shadow-3xl'>
                                         <p className=' opacity-70 max-w-[721px] text-center font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Nec pellentesque aliquet diam eget sed mi ornare vulputate duis. Posuere id habitasse quis ac ac. Pellentesque eget sed ut tincidunt cras. Ipsum nec placerat vitae orci. Accumsan amet commodo montes, aenean velit gravida tristique montes. Porttitor velit cras venenatis, amet curabitur ultricies ac dictum.</p>
                                         <p className=' font-Poppins font-[500] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] text-center pt-4 text-black '>Marrie James-CEO</p>
-                                        <p className=' pt-[2px] text-center font-Poppins text-black text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Limana Enterprises, CA</p>
+                                        <p className=' pt-[2px] text-center opacity-70 font-Poppins text-black text-[14px] md:text-[16px] leading-[22px] md:leading-[25px]'>Limana Enterprises, CA</p>
                                         <img className=' pointer-events-none absolute top-[-50px] left-[45%] ' src={womenelipse} alt="women" />
                                     </div>
                                     <div className='flex flex-row 
