@@ -30,7 +30,7 @@ const HeroSection = () => {
     };
     return (
         <>
-            <section className=' md:bg-[url(../src/assets/webp/Hero-bg.webp)] md:bg-no-repeat md:bg-cover relative '>
+            <section className=' md:bg-[url(../src/assets/webp/Hero-bg.webp)] md:bg-no-repeat md:bg-cover relative 2xl:h-[810px]'>
                 <div className=' container relative z-50'>
                     <div className=' flex justify-between items-center pt-6'>
                         <h2 className=' text-black ff-hel font-[900] text-2xl cursor-pointer'>Logo</h2>
