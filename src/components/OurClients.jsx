@@ -16,7 +16,7 @@ const OurClients = () => {
         speed: 1600,
         pauseOnhover: true,
         swipeToSlide: true,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 1200,
 
         appendDots: (dots) => (
