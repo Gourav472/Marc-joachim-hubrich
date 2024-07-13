@@ -15,7 +15,7 @@ const Targetgroup = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' bg-[url(./assets/webp/ring-bg.webp)] bg-no-repeat bg-cover '>
+                <div className=' bg-targetgroup_bg bg-no-repeat bg-cover '>
                     <div className=' container relative py-[48px] md:py-[80px] lg:py-[108px]'>
                         <div className=' flex flex-col items-center lg:items-start gap-6 md:gap-8 '>
                             <div className=' flex flex-col md:flex-row lg:flex-col gap-[24px] md:gap-[32px]   '>

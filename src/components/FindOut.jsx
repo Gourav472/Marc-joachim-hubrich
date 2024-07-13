@@ -3,7 +3,7 @@ import React from 'react'
 const FindOut = () => {
     return (
         <>
-            <section className=' bg-[url(./assets/webp/FindOut.webp)] bg-cover bg-no-repeat py-[48px] md:py-[80px] lg:py-[106px]'>
+            <section className=' bg-findout_bg bg-cover bg-no-repeat py-[48px] md:py-[80px] lg:py-[106px]'>
                 <div className=' container'>
                     <div data-aos="zoom-in" className=' flex justify-center'>
                         <div className=' max-w-[778px] backdrop-blur-sm flex flex-col items-center bg-[#FFFFFF26] border-[1px] border-[#FFFFFF26] p-[20px_20px] sm:p-[40px_20px] lg:p-[50px_75px_42px_75px] w-full'>

@@ -14,7 +14,7 @@ const BlueCards = () => {
     };
     return (
         <>
-            <section className=' bg-[url(./assets/webp/blue-cards.webp)] bg-no-repeat bg-cover '>
+            <section className=' bg-blue_cards_bg bg-no-repeat bg-cover '>
                 <div className=' max-md:hidden container'>
                     <div data-aos="fade-left" className='flex max-md:hidden max-lg:gap-4 justify-center lg:justify-end'>
                         <div className=' max-w-[250px] w-full min-h-[162px] flex justify-center bg-[#003E9233] p-[42px_26px] hover:bg-blue duration-300 ease-linear cursor-pointer'>

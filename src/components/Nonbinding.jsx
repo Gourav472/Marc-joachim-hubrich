@@ -32,7 +32,7 @@ const Nonbinding = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' bg-[url(./assets/webp/Binding-bg.webp)] bg-no-repeat bg-cover pt-[48px] pb-[48px] md:pt-[80px] md:pb-[80px] lg:pt-[111px] lg:pb-[186px]'>
+                <div className=' bg-non_binding_bg bg-no-repeat bg-cover pt-[48px] pb-[48px] md:pt-[80px] md:pb-[80px] lg:pt-[111px] lg:pb-[186px]'>
                     <div className=' max-md:hidden container'>
                         <div data-aos="fade-right" className='  flex flex-row justify-center flex-wrap mx-[-12px]'>
                             <div  className='w-4/12 px-[12px] flex lg:px-[0px] max-w-[250px]'>
