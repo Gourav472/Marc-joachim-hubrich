@@ -10,12 +10,6 @@
 .ff-hel {
     font-family: 'HelveticaNeue', sans-serif;
 }
-.font-Poppins{
-    font-display: swap !important;
-}
-.font-Inter{
-    font-display: swap !important;
-}
 
 @tailwind base;
 @tailwind components;
