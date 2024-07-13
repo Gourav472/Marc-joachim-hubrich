@@ -47,7 +47,7 @@ const HeroSection = () => {
                             <span class="nav-toggle-items "></span>
                         </div>
                     </div>
-                    <img className=' pointer-events-none max-w-[450px] hidden d_block z-10 w-full left-[-40%] rotate-90 top-[-10%]  absolute' src={elipse1} alt="elipse" />
+                    <img className=' max-md:hidden pointer-events-none max-w-[450px] hidden d_block z-10 w-full left-[-40%] rotate-90 top-[-10%]  absolute' src={elipse1} alt="elipse" />
 
                 </div>
                 <div className=' container  relative z-20'>
