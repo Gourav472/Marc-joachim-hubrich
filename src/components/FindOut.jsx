@@ -5,7 +5,7 @@ const FindOut = () => {
         <>
             <section className=' bg-[url(./assets/webp/FindOut.webp)] bg-cover bg-no-repeat py-[48px] md:py-[80px] lg:py-[106px]'>
                 <div className=' container'>
-                    <div className=' flex justify-center'>
+                    <div data-aos="zoom-in" className=' flex justify-center'>
                         <div className=' max-w-[778px] backdrop-blur-sm flex flex-col items-center bg-[#FFFFFF26] border-[1px] border-[#FFFFFF26] p-[20px_20px] sm:p-[40px_20px] lg:p-[50px_75px_42px_75px] w-full'>
                             <h2 className=' uppercase ff-hel font-[400] text-[32px] sm:text-[36px] md:text-[52px] leading-[45px] md:leading-[62px] text-center text-white'>Are you over your EX?</h2>
                             <p className=' font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px]  md:leading-[25px] text-white text-center pt-[9px] max-w-[585px]'>Most women don't even realize how their past experiences affect their lives today. Assisting you to overcome this situation is what we do.</p>

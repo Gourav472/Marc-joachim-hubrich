@@ -48,7 +48,7 @@ const Separation = () => {
             <section className='pt-[48px] pb-[48px] md:pt-[80px] md:pb-[80px] lg:pt-[302px] lg:pb-[186px] relative'>
                 <div className=' container relative z-20'>
                     <div className=' flex flex-wrap justify-between mx-[-12px] flex-row'>
-                        <div className=' w-full flex justify-center lg:justify-start lg:w-5/12 px-[12px]'>
+                        <div data-aos="fade-right" className=' w-full flex justify-center lg:justify-start lg:w-5/12 px-[12px]'>
                             <div className=' flex flex-col pt-[36px]'>
                                 <p className=' text-black ff-hel font-[400] text-[24px] md:text-[29px] leading-[25px] md:leading-[37px] text-center lg:text-start'>THE FOUR PHASES OF</p>
                                 <h2 className=' ff-hel font-[400] text-[32px] sm:text-[45px] md:text-[52px] leading-[45px] md:leading-[62px] text-black text-center lg:text-start max-md:pt-[10px]'>SEPARATION <span className=' text-orange lg:block'>MINDSET</span></h2>
@@ -58,7 +58,7 @@ const Separation = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className=' w-full lg:w-7/12 max-lg:mt-[48px]  px-[12px] '>
+                        <div data-aos="fade-left" className=' w-full lg:w-7/12 max-lg:mt-[48px]  px-[12px] '>
                             <Slider {...settings1} className=' relative '>
                                 <div className=' !flex justify-center lg:!justify-end'>
                                     <div className=' max-w-[608px] w-full bg-blue  min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
@@ -100,10 +100,10 @@ const Separation = () => {
                         </div>
                     </div>
                     <img className='z-10 pointer-events-none hidden d_block absolute left-[-40%]  bottom-[115%] rotate-12 max-w-[515px]' src={elipse6} alt="elipse" />
-                    <img className='z-10 pointer-events-none hidden d_block max-w-[204px] elipse-7 w-full  right-[-20%] top-[-65%] absolute' src={elipse7} alt="elipseF" />
+                    <img data-aos="fade-left" className='z-10 pointer-events-none hidden d_block max-w-[204px] elipse-7 w-full  right-[-20%] top-[-65%] absolute' src={elipse7} alt="elipseF" />
                 </div>
                 <img className='z-10 pointer-events-none d_none absolute left-0 top-[-55%] md:top-[-50%] lg:top-[-35%] max-w-[515px]' src={elipse6} alt="elipse" />
-                <img className='z-10 pointer-events-none d_none max-w-[204px] elipse-7 w-full max-md:hidden  right-[10px] 2xl:right-[144px] top-[20%] lg:top-[10px] absolute' src={elipse7} alt="elipseF" />
+                <img data-aos="fade-left" className='z-10 pointer-events-none d_none max-w-[204px] elipse-7 w-full max-md:hidden  right-[10px] 2xl:right-[144px] top-[20%] lg:top-[10px] absolute' src={elipse7} alt="elipseF" />
             </section>
         </>
     )

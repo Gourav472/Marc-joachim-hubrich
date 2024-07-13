@@ -9,7 +9,7 @@ const Footer = () => {
     const year = today.getFullYear();
     return (
         <>
-            <footer className=' bg-blue py-[48px] md:py-[68px] lg:py-[94px] relative'>
+            <footer className=' bg-blue pt-[48px] pb-[65px] md:py-[68px] lg:py-[94px] relative'>
                 <div className=' container relative z-20'>
                     <div className=' flex max-xl:mx-auto  xl:justify-end'>
                         <div className=' justify-between max-sm:items-end items-center xl:items-end w-full xl:max-w-[700px] flex'>
@@ -24,7 +24,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <img className=' max-w-[1619px] w-full absolute bottom-0 left-0 z-10' src={footerlayer} alt="layer" />
+                <img className=' pointer-events-none max-w-[1619px] w-full absolute bottom-0 left-0 z-10' src={footerlayer} alt="layer" />
             </footer>
         </>
     )
