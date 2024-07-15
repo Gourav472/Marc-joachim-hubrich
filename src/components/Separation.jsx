@@ -61,7 +61,7 @@ const Separation = () => {
                         <div data-aos="fade-left" className=' w-full lg:w-7/12 max-lg:mt-[48px]  px-[12px] '>
                             <Slider {...settings1} className=' relative '>
                                 <div className=' !flex justify-center lg:!justify-end'>
-                                    <div className=' max-w-[608px] w-full bg-blue  min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
+                                    <div className=' max-w-[608px] w-full bg-blue min-h-[270px] md:min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
                                         <div className='flex flex-col lg:pb-20 z-20'>
                                             <p className=' capitalize font-Poppins font-[500] text-[20] leading-[28px] md:leading-[32px] text-white text-center'>1st phase <span className='block'>"The not-wanting-to-be-true"</span></p>
                                             <p className=' text-white text-center font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] max-w-[364px] pt-[10px] md:pt-[15px]'>This phase is characterized by denial and ignoring the final separation.</p>
@@ -70,7 +70,7 @@ const Separation = () => {
                                     </div>
                                 </div>
                                 <div className=' !flex justify-center lg:!justify-end'>
-                                    <div className=' max-w-[608px] w-full bg-blue  min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
+                                    <div className=' max-w-[608px] w-full bg-blue min-h-[270px] md:min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
                                         <div className='flex flex-col lg:pb-20 z-20'>
                                             <p className=' capitalize font-Poppins font-[500] text-[20] leading-[28px] md:leading-[32px] text-white text-center'>2nd phase <span className='block'>"sales mindset"</span></p>
                                             <p className=' text-white text-center font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] max-w-[364px] pt-[10px] md:pt-[15px]'>Nervousness and feelings of guilt in the sales talk are the reason for poor performance, learn to put them aside and calmly convince your customers.</p>
@@ -79,7 +79,7 @@ const Separation = () => {
                                     </div>
                                 </div>
                                 <div className=' !flex justify-center lg:!justify-end'>
-                                    <div className=' max-w-[608px] w-full bg-blue  min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
+                                    <div className=' max-w-[608px] w-full bg-blue min-h-[270px] md:min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
                                         <div className='flex flex-col lg:pb-20 z-20'>
                                             <p className=' capitalize font-Poppins font-[500] text-[20] leading-[28px] md:leading-[32px] text-white text-center'>3rd phase <span className='block'>"CEO Mindset"</span></p>
                                             <p className=' text-white text-center font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] max-w-[364px] pt-[10px] md:pt-[15px]'>Constant stress and enormous pressure as a founder is not normal, but the result of a wrong perspective on productive work. Learn how to get the maximum performance out of yourself without stress.</p>
@@ -88,7 +88,7 @@ const Separation = () => {
                                     </div>
                                 </div>
                                 <div className=' !flex justify-center lg:!justify-end'>
-                                    <div className=' max-w-[608px] w-full bg-blue  min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
+                                    <div className=' max-w-[608px] w-full bg-blue min-h-[270px] md:min-h-[290px] lg:min-h-[448px]  !flex !flex-col !items-center !justify-center  p-5 relative '>
                                         <div className='flex flex-col lg:pb-20 z-20'>
                                             <p className=' capitalize font-Poppins font-[500] text-[20] leading-[28px] md:leading-[32px] text-white text-center'>4th phase <span className='block'>"Business Mindset"</span></p>
                                             <p className=' text-white text-center font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] max-w-[364px] pt-[10px] md:pt-[15px]'>Nervousness and feelings of guilt in the sales talk are the reason for poor performance, learn to put them aside and calmly convince your customers.</p>

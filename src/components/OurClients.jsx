@@ -39,7 +39,7 @@ const OurClients = () => {
     return (
         <>
 
-            <section className=' pt-[10px] pb-[48px] md:py-[80px] lg:pt-[202px] lg:pb-[226px] relative'>
+            <section className=' lg:pb-[226px] relative'>
                 <div className=' container relative z-20'>
                     <div className=' flex flex-col items-center '>
                         <h2 data-aos="zoom-in" className=' uppercase text-center ff-hel text-black font-[400] text-[32px] sm:text-[45px] md:text-[52px] ff-hel leading-[45px] md:leading-[66px]'>What our <span className=' text-orange'>clients</span> say</h2>
@@ -132,7 +132,7 @@ const OurClients = () => {
                     <img data-aos="fade-left" className=' absolute top-[10%] max-md:hidden xl:top-[20%] right-[0%] lg:right-[4%]' src={sliderblue} alt="blue-elipse" />
 
                 </div>
-                <img data-aos="fade-right" className=' z-10 pointer-events-none d_none absolute left-[0px] max-md:hidden lg:left-[20px] xl:left-[142px] bottom-[15px] lg:bottom-[18px] max-w-[212px] w-full' src={elipse10} alt="elipse" />
+                <img data-aos="fade-right" className=' z-10 pointer-events-none d_none absolute left-[0px] max-md:hidden lg:left-[20px] xl:left-[150px] bottom-[15px] lg:bottom-[18px] max-w-[212px] w-full' src={elipse10} alt="elipse" />
 
             </section>
         </>

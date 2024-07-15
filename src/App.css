@@ -35,11 +35,7 @@
    bottom: 23px !important;
 }
 
-.slick-prev,
-.slick-next {
-   top: unset !important;
-   display: flex !important;
-}
+
 
 .bluebox .slick-track {
    display: flex !important;
@@ -60,6 +56,11 @@
 }
 
 @media (min-width:992px) {
+   .slick-prev,
+.slick-next {
+   top: unset !important;
+   display: flex !important;
+}
    .slick-prev {
       left: -30px !important;
       bottom: 23px !important;
@@ -97,4 +98,10 @@
       bottom: 23px !important;
    }
 
+}
+
+@media (min-width:1537px) {
+   .p_unset {
+      padding: unset;
+   }
 }

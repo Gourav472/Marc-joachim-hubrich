@@ -9,13 +9,13 @@ const Footer = () => {
     const year = today.getFullYear();
     return (
         <>
-            <footer className=' bg-blue pt-[48px] pb-[65px] md:py-[68px] lg:py-[94px] relative'>
+            <footer className=' bg-blue pt-[48px] pb-[48px] md:py-[68px] lg:py-[94px] relative'>
                 <div className=' container relative z-20'>
-                    <div className=' flex max-xl:mx-auto  xl:justify-end'>
-                        <div className=' justify-between max-sm:items-end items-center xl:items-end w-full xl:max-w-[700px] flex'>
+                    <div className=' flex max-md:justify-center max-xl:mx-auto  xl:justify-end'>
+                        <div className=' md:justify-between justify-center max-md:flex-wrap max-md:max-w-[350px] md:items-center xl:items-end w-full xl:max-w-[700px] flex'>
                             <p className=' max-w-[264px] text-center font-Poppins font-[400] text-[16px] leading-[25px] text-white cursor-pointer'>(c){year} MARC JOACHIM HUBRICH
                                 All Rights Reserved</p>
-                            <div className=' flex max-sm:flex-col xl:flex-col gap-3'>
+                            <div className=' flex  xl:flex-col gap-3 max-md:mt-4'>
                                 <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target='_blank' className=' hover:scale-110 duration-300 ease-linear'><img src={facebook} alt="facebook" /></a>
                                 <a href="https://x.com/?lang=en" target='_blank' className=' hover:scale-110 duration-300 ease-linear'><img src={twitter} alt="twitter" /></a>
                                 <a href="https://mail.google.com/" target='_blank' className=' hover:scale-110 duration-300 ease-linear'><img src={mail} alt="mail" /></a>

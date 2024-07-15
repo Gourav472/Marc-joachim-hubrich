@@ -1,7 +1,7 @@
 export const PrevArrow = ({ onClick, className, style }) => {
     return (
       <div
-        className={`absolute z-30 left-6 bottom-6 cursor-pointer max-md:!hidden ${className}`}
+        className={`max-lg:!hidden absolute z-30 left-6 bottom-6 cursor-pointer ${className}`}
         style={{ ...style, display: "block" }}
         onClick={onClick}
       >
@@ -22,7 +22,7 @@ export const PrevArrow = ({ onClick, className, style }) => {
   export const NextArrow = ({ className, style, onClick }) => {
     return (
       <div
-        className={`absolute z-30 left-24 bottom-6 cursor-pointer max-md:!hidden ${className}`}
+        className={`max-lg:!hidden absolute z-30 left-24 bottom-6 cursor-pointer ${className}`}
         style={{ ...style, display: "block" }}
         onClick={onClick}
       >
