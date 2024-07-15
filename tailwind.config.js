@@ -37,6 +37,7 @@ module.exports = {
       boxShadow: {
         "3xl": "0px 2px 48px 0px #00000014",
         "4xl": "0px 0px 25px 0px #FFFFF",
+        "5xl": "0px 0px 15px 0px #0C5FD1 inset",
       },
       backgroundImage: {
         "gradient-to-custom": "linear-gradient(107.9deg, #0c5fd1 1.25%, #8703c5 93.71%)",
