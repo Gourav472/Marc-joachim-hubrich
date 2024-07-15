@@ -30,7 +30,7 @@ const Targetgroup = () => {
                                 <p className=' font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] max-w-[310px] text-white'>To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.</p>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" className=' max-lg:hidden absolute bottom-[-31px] w-full right-[28px] max-w-[338px] backdrop-blur min-h-[272px] bg-[#003E92B2] p-[40px] xl:p-[65px_28px_77px_39px]'>
+                        <div data-aos="zoom-in" className=' max-lg:hidden absolute bottom-[-31px] w-full right-[48px] max-w-[338px] backdrop-blur min-h-[272px] bg-[#003E92B2] p-[40px] xl:p-[65px_28px_77px_39px]'>
                             <p className=' font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px] md:leading-[25px] max-w-[270px] text-white'>To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.</p>
                         </div>
                     </div>

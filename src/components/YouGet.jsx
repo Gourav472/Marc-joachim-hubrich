@@ -2,8 +2,6 @@ import React from 'react'
 import CommonBtn from '../common/CommonBtn'
 import flower1 from '../assets/webp/flower1.webp'
 import message from '../assets/svg/message.svg'
-import elipse4 from '../assets/webp/elipse4.webp'
-import elipse5 from '../assets/webp/elipse5.webp'
 import leftflower from '../assets/webp/flower-left.webp'
 import rightflower from '../assets/webp/flower-right.webp'
 const YouGet = () => {
@@ -29,50 +27,66 @@ const YouGet = () => {
                                 </div>
                             </div>
                         </div>
-                        <p  data-aos="zoom-in" className=' ff-hel text-black font-[700] text-[16px] md:text-[20px] leading-[24px] md:leading-[28px] text-center pt-[47px]'>In a 1:1 live coaching session, we will clarify the following questions in particular:</p>
+                        <p data-aos="zoom-in" className=' ff-hel text-black font-[700] text-[16px] md:text-[20px] leading-[24px] md:leading-[28px] text-center pt-[47px]'>In a 1:1 live coaching session, we will clarify the following questions in particular:</p>
                         <div className='  flex flex-row flex-wrap mx-[-12px] pt-3 sm:pt-7'>
-                            <div  data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
+                            <div data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
                                 <div className=' sm:max-w-[380px] flex justify-center md:justify-start sm:min-h-[120px] md:min-h-[230px] sm:h-full duration-300 ease-linear pt-[16px] sm:p-[30px_20px] md:p-[63px_20px] xl:p-[63px_37.64px] sm:hover:bg-[#F5FAFF] group cursor-pointer w-full'>
                                     <p className='sm:max-w-[283px] capitalize opacity-70 text-black text-center sm:text-start  font-Poppins font-[400] text-[14px] xl:text-[16px] leading-[21px] xl:leading-[25px] group-hover:text-blue group-hover:opacity-100 '>Why does your EX have to disappear from your life forever?</p>
                                 </div>
                             </div>
-                            <div  data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
+                            <div data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
                                 <div className=' sm:max-w-[380px] flex justify-center md:justify-start sm:min-h-[120px] md:min-h-[230px] sm:h-full duration-300 ease-linear pt-[16px] sm:p-[30px_20px] md:p-[63px_20px] xl:p-[63px_37.64px] sm:hover:bg-[#F5FAFF] group cursor-pointer w-full'>
                                     <p className='sm:max-w-[283px] capitalize opacity-70 text-black  text-center sm:text-start font-Poppins font-[400] text-[14px] xl:text-[16px] leading-[21px] xl:leading-[25px] group-hover:text-blue group-hover:opacity-100 '>What should your everyday life as a single person look like now and how can you cope with the new challenges?</p>
                                 </div>
                             </div>
-                            <div  data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
+                            <div data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
                                 <div className=' sm:max-w-[380px] flex justify-center md:justify-start sm:min-h-[120px] md:min-h-[230px] sm:h-full duration-300 ease-linear pt-[16px] sm:p-[30px_20px] md:p-[63px_20px] xl:p-[63px_37.64px] sm:hover:bg-[#F5FAFF] group cursor-pointer w-full'>
                                     <p className='sm:max-w-[304px] capitalize opacity-70 text-black  text-center sm:text-start font-Poppins font-[400] text-[14px] xl:text-[16px] leading-[21px] xl:leading-[25px] group-hover:text-blue group-hover:opacity-100 '>How can you handle the divorce quickly and without complications, without worrying about finances or the well-being of the children?</p>
                                 </div>
                             </div>
-                            <div  data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
+                            <div data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
                                 <div className=' sm:max-w-[380px] flex justify-center md:justify-start sm:min-h-[120px] md:min-h-[230px] sm:h-full duration-300 ease-linear pt-[16px] sm:p-[30px_20px] md:p-[63px_20px] xl:p-[63px_37.64px] sm:hover:bg-[#F5FAFF] group cursor-pointer w-full'>
                                     <p className='sm:max-w-[283px] capitalize opacity-70 text-black text-center sm:text-start  font-Poppins font-[400] text-[14px] xl:text-[16px] leading-[21px] xl:leading-[25px] group-hover:text-blue group-hover:opacity-100 '>Who are you without your EX?</p>
                                 </div>
                             </div>
-                            <div  data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
+                            <div data-aos="zoom-in" className=' w-full justify-center lg:justify-start sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex '>
                                 <div className=' sm:max-w-[380px] flex justify-center md:justify-start sm:min-h-[120px] md:min-h-[230px] sm:h-full duration-300 ease-linear pt-[16px] sm:p-[30px_20px] md:p-[63px_20px] xl:p-[63px_37.64px] sm:hover:bg-[#F5FAFF] group cursor-pointer w-full'>
                                     <p className='sm:max-w-[283px] capitalize opacity-70 text-black  text-center sm:text-start font-Poppins font-[400] text-[14px] xl:text-[16px] leading-[21px] xl:leading-[25px] group-hover:text-blue group-hover:opacity-100 '>What new dreams and hopes do you want to live?</p>
                                 </div>
                             </div>
-                            <div  data-aos="zoom-in" className=' w-full pt-4 sm:pt-0 sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex items-center justify-center '>
-                                <button className=' flex items-center gap-[6px] p-[5px_9px] lg:p-[18px_9px] relative after:absolute after:inset-0 after:p-[1.7px] after:rounded-[8px]  duration-300 ease-linear btn_webkit after:w-full after:h-full after:bg-[linear-gradient(107.9deg,#0C5FD1_1.25%,#8703C5_93.71%)] rounded-[8px] w-full max-w-[245px] md:max-w-[292px]  group bg-white bg-transparent hover:shadow-5xl  '><span><img className=' max-w-[50px] h-[47px]' src={message} alt="message-svg" /></span><span className='bg-[linear-gradient(107.9deg,#0C5FD1_1.25%,#8703C5_93.71%)] bg-clip-text text-transparent font-Inter font-[500] text-[14px] md:text-[16px] text-start ps-1 sm:ps-0 leading-[22px] md:leading-[24px] capitalize '>Book a non-binding initial consultation now</span></button>
+                            <div data-aos="zoom-in" className=' w-full pt-4 sm:pt-0 sm:w-6/12 md:w-4/12 px-[12px] xl:px-0 flex items-center justify-center '>
+                                <button className=' hover:scale-95 flex items-center gap-[6px] p-[5px_9px] lg:p-[18.5px_9px] relative after:absolute after:inset-0 after:p-[1.7px] after:rounded-[8px]  duration-300 ease-linear btn_webkit after:w-full after:h-full after:bg-[linear-gradient(107.9deg,#0C5FD1_1.25%,#8703C5_93.71%)] rounded-[8px] w-full max-w-[245px] md:max-w-[292px]  group bg-white bg-transparent hover:shadow-5xl  '><span><img className=' max-w-[50px] h-[47px]' src={message} alt="message-svg" /></span><span className='bg-[linear-gradient(107.9deg,#0C5FD1_1.25%,#8703C5_93.71%)] bg-clip-text text-transparent font-Inter font-[500] text-[14px] md:text-[16px] text-start ps-1 sm:ps-0 leading-[22px] md:leading-[24px] capitalize '>Book a non-binding initial consultation now</span></button>
                             </div>
                         </div>
 
 
 
                     </div>
-                    <img data-aos="fade-left" className='z-10 pointer-events-none hidden d_block max-w-[93px] w-full absolute right-[-20%] top-[32px]' src={elipse4} alt="elipse" />
+                    <div className=' pointer-events-none flex items-end   max-md:hidden absolute right-[-1%] lg:right-0 top-[20%] lg:top-[32px]'>
+                        <div className=' flex relative items-center flex-col gap-[11px]'>
+                            <p className=' text-black font-Poppins font-[300] text-[20px] leading-[34px] -rotate-90'>MJH</p>
+                            <span className=' h-[269px] w-[2px] bg-orange'></span>
+                            <div className=' bottom-0 right-[20px] absolute flex items-end'>
+                                <p className=' text-black ff-hel font-[400] text-[40px] leading-[30px] rotate-90'>02</p>
+                                <span className=' w-[26px] h-[2px] bg-orange'></span>
+                            </div>
+                        </div>
+                    </div>
                     <img className='z-10 pointer-events-none hidden d_block absolute bottom-[-10%] max-w-[170px] w-full left-[-35%]' src={leftflower} alt="left-flower" />
                     <img className='z-10 pointer-events-none hidden d_block absolute top-[400px] max-w-[170px] w-full right-[-35%]' src={rightflower} alt="left-flower" />
-                    <img data-aos="fade-right" className='z-10 pointer-events-none hidden d_block absolute bottom-[-10%] left-[-20%] max-w-[136px] w-full' src={elipse5} alt="elipse" />
+                    <div className=' pointer-events-none flex items-end max-md:hidden absolute left-0 bottom-0 lg:bottom-[-93px] '>
+                        <div className=' flex relative items-center flex-col gap-[11px]'>
+                            <span className=' h-[588px] w-[2px] bg-orange'></span>
+                            <div className=' bottom-0 left-0 absolute flex items-end'>
+                                <span className=' w-[26px] h-[2px] bg-orange'></span>
+                                <p className=' text-black ff-hel font-[400] text-[40px] leading-[30px] -rotate-90'>03</p>
+                                <p className=' uppercase text-black ff-hel font-[400] text-[24px] leading-[15px]'>goal</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img data-aos="fade-left" className='z-10 pointer-events-none d_none max-w-[93px] w-full absolute top-[32px]  right-[10px] max-md:hidden xl:right-[144px]' src={elipse4} alt="elipse" />
                 <img className='z-10 pointer-events-none d_none absolute bottom-[10px] max-w-[170px] w-full left-0' src={leftflower} alt="left-flower" />
                 <img className='z-10 pointer-events-none d_none absolute top-[400px] max-w-[170px] w-full right-0' src={rightflower} alt="left-flower" />
-                <img data-aos="fade-right" className='z-10 pointer-events-none d_none absolute bottom-[23px] left-[10px] max-md:hidden  2xl:rotate-0 get-elipse max-w-[136px] w-full' src={elipse5} alt="elipse" />
             </section>
         </>
     )

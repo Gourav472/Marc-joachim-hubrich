@@ -2,9 +2,8 @@ import React from 'react'
 import CommonBtn from '../common/CommonBtn'
 import sliderelipse from '../assets/webp/slider-elipse.webp'
 import elipse6 from '../assets/webp/elipse6.webp'
-import elipse7 from '../assets/webp/elipse7.webp'
 import Slider from "react-slick";
-import { NextArrow, PrevArrow } from '../assets/icon';
+import { NextArrow, PrevArrow } from '../common/icon';
 const Separation = () => {
     var settings1 = {
         dots: true,
@@ -99,11 +98,19 @@ const Separation = () => {
                             </Slider>
                         </div>
                     </div>
-                    <img className='z-10 pointer-events-none hidden d_block absolute left-[-40%]  bottom-[115%] rotate-12 max-w-[515px]' src={elipse6} alt="elipse" />
-                    <img data-aos="fade-left" className='z-10 pointer-events-none hidden d_block max-w-[204px] elipse-7 w-full  right-[-20%] top-[-65%] absolute' src={elipse7} alt="elipseF" />
+                    <img className='z-10 pointer-events-none left-[-15%] elipse_6_position bottom-[75%] lg:left-[-14%] lg:bottom-[115%] absolute  max-w-[515px]' src={elipse6} alt="elipse" />
+                    <div className=' pointer-events-none flex items-end max-md:hidden absolute right-[-10px] top-[13%] lg:right-[9px] lg:top-[-292px]'>
+                        <div className=' flex relative items-center flex-col gap-[11px]'>
+                            <p className=' text-black font-Poppins font-[300] text-[20px] leading-[34px] -rotate-90'>MJH</p>
+                            <span className=' h-[201px] w-[2px] bg-orange'></span>
+                            <div className=' bottom-0 right-[20px] absolute flex items-end'>
+                                <p className=' uppercase text-black ff-hel font-[400] text-[24px] leading-[15px]'>analysis</p>
+                                <p className=' text-black ff-hel font-[400] text-[40px] leading-[30px] rotate-90'>04</p>
+                                <span className=' w-[26px] h-[2px] bg-orange'></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img className='z-10 pointer-events-none d_none absolute left-0 top-[-55%] md:top-[-50%] lg:top-[-35%] max-w-[515px]' src={elipse6} alt="elipse" />
-                <img data-aos="fade-left" className='z-10 pointer-events-none d_none max-w-[204px] elipse-7 w-full max-md:hidden  right-[10px] 2xl:right-[144px] top-[20%] lg:top-[10px] absolute' src={elipse7} alt="elipseF" />
             </section>
         </>
     )

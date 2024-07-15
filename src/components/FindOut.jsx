@@ -10,8 +10,7 @@ const FindOut = () => {
                             <h2 className=' uppercase ff-hel font-[400] text-[32px] sm:text-[36px] md:text-[52px] leading-[45px] md:leading-[62px] text-center text-white'>Are you over your EX?</h2>
                             <p className=' font-Poppins font-[400] text-[14px] md:text-[16px] leading-[22px]  md:leading-[25px] text-white text-center pt-[9px] max-w-[585px]'>Most women don't even realize how their past experiences affect their lives today. Assisting you to overcome this situation is what we do.</p>
                             <div className=' pt-[25px] md:pt-[31px]'>
-                                <button className=' md:py-4 py-2 px-4 md:px-9 btn_webkit hover:scale-95  overflow-hidden hover:bg-clip-text text-white hover:text-transparent capitalize relative after:w-full after:h-full after:absolute after:inset-0 after:p-[1.7px] after:bg-gradient-to-custom rounded-[68px] after:rounded-[68px] bg-gradient-to-custom duration-300 group ease-linear '><span className=' hover:bg-clip-text text-white duration-300 ease-linear group-hover:text-transparent font-Inter font-[500] text-[16px] leading-[24px] capitalize hover:text-transparent '>Let’s find it out</span></button>
-
+                                <button className=' md:py-[15.6px] py-2 px-[16px] md:px-[36.98px] btn_webkit hover:scale-95  overflow-hidden hover:bg-clip-text text-white hover:text-transparent capitalize relative after:w-full after:h-full after:absolute after:inset-0 after:p-[1.7px] after:bg-gradient-to-custom rounded-[68px] after:rounded-[68px] bg-gradient-to-custom duration-300 group ease-linear '><span className=' hover:bg-clip-text text-white duration-300 ease-linear group-hover:text-transparent font-Inter font-[500] text-[16px] leading-[24px] capitalize hover:text-transparent '>Let’s find it out</span></button>
                             </div>
                         </div>
                     </div>

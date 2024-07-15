@@ -1,6 +1,5 @@
 import React from 'react'
 import womenelipse from '../assets/svg/elipse-women.svg'
-import elipse10 from '../assets/webp/elipse10.webp'
 import sliderblue from '../assets/svg/slider-blue.svg'
 import Slider from 'react-slick'
 const OurClients = () => {
@@ -39,7 +38,7 @@ const OurClients = () => {
     return (
         <>
 
-            <section className=' lg:pb-[226px] relative'>
+            <section className=' pb-[48px] md:pb-[80px] lg:pb-[226px] relative'>
                 <div className=' container relative z-20'>
                     <div className=' flex flex-col items-center '>
                         <h2 data-aos="zoom-in" className=' uppercase text-center ff-hel text-black font-[400] text-[32px] sm:text-[45px] md:text-[52px] ff-hel leading-[45px] md:leading-[66px]'>What our <span className=' text-orange'>clients</span> say</h2>
@@ -128,12 +127,29 @@ const OurClients = () => {
                             </Slider>
                         </div>
                     </div>
-                    <img data-aos="fade-right" className=' z-10 pointer-events-none hidden d_block absolute left-[-20%] bottom-[-30%] max-w-[212px] w-full' src={elipse10} alt="elipse" />
+                    <div className=' pointer-events-none flex items-end max-md:hidden absolute right-0 top-[-270px] lg:top-[-212px]'>
+                        <div className=' flex relative items-center flex-col gap-[11px] '>
+                            <p className=' text-black font-Poppins font-[300] text-[20px] leading-[34px] -rotate-90'>MJH</p>
+                            <span className=' h-[201px] w-[2px] bg-orange'></span>
+                            <div className=' bottom-0 right-[20px] absolute flex items-end'>
+                                <p className=' text-black ff-hel font-[400] text-[40px] leading-[30px] rotate-90'>09</p>
+                                <span className=' w-[26px] h-[2px] bg-orange'></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=' pointer-events-none flex items-end max-md:hidden absolute bottom-[-60px] left-[-4%] lg:bottom-[-200px] lg:left-0'>
+                        <div className=' flex relative items-center flex-col gap-[11px]'>
+                            <p className=' text-black font-Poppins font-[300] text-[20px] leading-[34px] -rotate-90'>MJH</p>
+                            <span className=' h-[269px] w-[2px] bg-orange'></span>
+                            <div className=' bottom-0 left-[20px] absolute flex items-end'>
+                                <span className=' w-[26px] h-[2px] bg-orange'></span>
+                                <p className=' text-black ff-hel font-[400] text-[40px] leading-[30px] -rotate-90'>07</p>
+                                <p className=' uppercase text-black ff-hel font-[400] text-[24px] leading-[15px] text-nowrap'>take step</p>
+                            </div>
+                        </div>
+                    </div>
                     <img data-aos="fade-left" className=' absolute top-[10%] max-md:hidden xl:top-[20%] right-[0%] lg:right-[4%]' src={sliderblue} alt="blue-elipse" />
-
                 </div>
-                <img data-aos="fade-right" className=' z-10 pointer-events-none d_none absolute left-[0px] max-md:hidden lg:left-[20px] xl:left-[150px] bottom-[15px] lg:bottom-[18px] max-w-[212px] w-full' src={elipse10} alt="elipse" />
-
             </section>
         </>
     )

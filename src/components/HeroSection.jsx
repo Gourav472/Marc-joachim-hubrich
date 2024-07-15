@@ -37,7 +37,7 @@ const HeroSection = () => {
                         <ul className={`ps-0 mb-0 flex flex-col lg:flex-row items-center gap-8 lg:gap-10 max-lg:fixed max-lg:justify-center top-0 max-lg:-right-full max-lg:z-[90] max-lg:h-screen max-lg:w-full max-lg:duration-500 ease-linear max-lg:bg-white ${show ? "" : " !right-0"}`}>
                             <li> <a onClick={handleClick} href="#benefits" className=' opacity-70 ff-hel font-[400] text-[16px] leading-[20px] text-black 2xl:text-white hover:text-blue duration-300 ease-linear'>Benifits</a></li>
                             <li> <a onClick={handleClick} href="#testimonials" className=' opacity-70 ff-hel font-[400] text-[16px] leading-[20px] text-black 2xl:text-white hover:text-blue duration-300 ease-linear'>Testimonials</a></li>
-                            <li><button className='font-medium text-base leading-6 font-Inter capitalize px-7 py-[14.4px] bg-gradient-to-custom text-white rounded-none outline-none border-2 transition-custom duration-300 ease-linear relative border-gradient hover:bg-gradient1 hover:text-transparent hover:bg-clip-text hover:scale-95'>Book Consultation Now</button></li>
+                            <li><button className='font-medium text-base leading-6 font-Inter capitalize px-[26.48px] py-[14.4px] bg-gradient-to-custom text-white rounded-none outline-none border-2 transition-custom duration-300 ease-linear relative border-gradient hover:bg-gradient1 hover:text-transparent hover:bg-clip-text hover:scale-95'>Book Consultation Now</button></li>
                         </ul>
                         <div
                             class={` cursor-pointer relative z-[100] lg:hidden ${show ? "" : "cross"}`}
