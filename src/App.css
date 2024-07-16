@@ -56,11 +56,13 @@
 }
 
 @media (min-width:992px) {
+
    .slick-prev,
-.slick-next {
-   top: unset !important;
-   display: flex !important;
-}
+   .slick-next {
+      top: unset !important;
+      display: flex !important;
+   }
+
    .slick-prev {
       left: -30px !important;
       bottom: 23px !important;
@@ -99,15 +101,32 @@
    }
 
 }
+
 @media (min-width:1441px) {
-   .elipse_6_position{
+   .elipse_6_position {
       bottom: 120%;
       transform: rotate(10deg);
+   }
+
+   .left_flower {
+      left: -20%;
+   }
+
+   .right_flower {
+      right: -20%;
    }
 }
 
 @media (min-width:1537px) {
    .p_unset {
       padding: unset;
+   }
+
+   .left_flower {
+      left: -37%;
+   }
+
+   .right_flower {
+      right: -37%;
    }
 }

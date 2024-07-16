@@ -72,8 +72,8 @@ const YouGet = () => {
                             </div>
                         </div>
                     </div>
-                    <img className='z-10 pointer-events-none hidden d_block absolute bottom-[-10%] max-w-[170px] w-full left-[-35%]' src={leftflower} alt="left-flower" />
-                    <img className='z-10 pointer-events-none hidden d_block absolute top-[400px] max-w-[170px] w-full right-[-35%]' src={rightflower} alt="left-flower" />
+                    <img className='z-10 pointer-events-none absolute max-w-[170px] w-full bottom-[-5%] left-[-10%] sm:left-[-20%] md:left-[-20%] lg:bottom-[-12%] lg:left-[-9%] xl:left-[-13%] 2xl:left-[-14%] left_flower' src={leftflower} alt="left-flower" />
+                    <img className='z-10 pointer-events-none absolute max-w-[170px] w-full bottom-[30%] right-[-10%] sm:right-[-10%] md:right-[-20%] lg:right-[-9%] xl:right-[-13%] 2xl:right-[-14%] right_flower ' src={rightflower} alt="left-flower" />
                     <div className=' pointer-events-none flex items-end max-md:hidden absolute left-0 bottom-0 lg:bottom-[-93px] '>
                         <div className=' flex relative items-center flex-col gap-[11px]'>
                             <span className=' h-[588px] w-[2px] bg-orange'></span>
@@ -85,8 +85,6 @@ const YouGet = () => {
                         </div>
                     </div>
                 </div>
-                <img className='z-10 pointer-events-none d_none absolute bottom-[10px] max-w-[170px] w-full left-0' src={leftflower} alt="left-flower" />
-                <img className='z-10 pointer-events-none d_none absolute top-[400px] max-w-[170px] w-full right-0' src={rightflower} alt="left-flower" />
             </section>
         </>
     )
